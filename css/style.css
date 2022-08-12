@@ -1,0 +1,79 @@
+#title,#description{
+color:black;
+text-align: center;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: Grey;
+    margin: 0;
+}
+form, #survey-form{
+    background: darkblue;
+    border-radius: 0.25rem;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* form ::before, form::after{
+    box-sizing: border-box;
+} */
+label {
+    font-size: 1.125rem;
+    margin-left: 20px;
+}
+input{
+    display: block;
+    padding: 8px;
+    width: 80%;
+    margin-left: 20px;
+}
+#dropdown,p{
+    color: grey;
+    margin-left: 20px;
+    font-family:Arial;
+}
+#dropdown{
+    padding: 6px 12px;
+    width: 80%;
+    margin-left: 20px;
+}
+.input-radio{
+    margin: 0px 0px 20px;
+    width: 80%;
+    margin-left: -400px;
+    display: inline;
+}
+#most-like{
+    padding: 6px 12px;
+    width: 80%;
+    margin-left: 20px;
+}
+.input-checkbox{
+        color: white;
+        font-family: Arial;
+        padding: 10px;    
+        margin-left:20px;
+        width:80%;
+}
+textarea{
+    color: black;
+    padding: 40px;
+    margin-left: 40px;
+    border-radius: 30px;
+}
+#submit{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width: 80%;
+    color: whitesmoke;
+    background-color: green;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#submit:hover{
+    color: white;
+    background-color:greenyellow;
+}
